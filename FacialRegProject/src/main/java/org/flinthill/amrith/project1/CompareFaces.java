@@ -29,7 +29,7 @@ public class CompareFaces implements RequestHandler<Object, String> {
         String fileName = values.get(4);
         CompareFacesHelper helper = new CompareFacesHelper();     
         return helper.searchFaces(collectionId, bucketName, fileName);
-        
+        // Testing Git
         
     }
     
